@@ -1,0 +1,15 @@
+.dropdown {
+  position: absolute;
+}
+
+.menu {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--primary-6);
+}
+.menu_item:hover {
+  cursor: pointer;
+}

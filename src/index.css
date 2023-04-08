@@ -5,11 +5,11 @@
   --body-color: var(--gray-0);
 
   --primary-0: var(--orange-0);
-  --primary-2: var(--orange-1);
-  --primary-3: var(--orange-2);
-  --primary-4: var(--orange-3);
-  --primary-5: var(--orange-4);
-  --primary-6: var(--orange-5);
+  --primary-1: var(--orange-1);
+  --primary-2: var(--orange-2);
+  --primary-3: var(--orange-3);
+  --primary-4: var(--orange-4);
+  --primary-5: var(--orange-5);
   --primary-6: var(--orange-6);
 
   --success-1: var(--green-4);
@@ -23,14 +23,14 @@
     --body-color: var(--gray-11);
 
     --primary-0: var(--orange-7);
-    --primary-2: var(--orange-8);
-    --primary-3: var(--orange-9);
-    --primary-4: var(--orange-10);
-    --primary-5: var(--orange-11);
-    --primary-6: var(--orange-12);
+    --primary-1: var(--orange-8);
+    --primary-2: var(--orange-9);
+    --primary-3: var(--orange-10);
+    --primary-4: var(--orange-11);
+    --primary-5: var(--orange-12);
 
     --success-1: var(--green-4);
-    --success-1: var(--green-7);
+    --success-2: var(--green-7);
 
     --error-1: var(--red-4);
     --error-2: var(--red-7);
@@ -40,11 +40,11 @@ html.light:root {
   --body-color: var(--gray-0);
 
   --primary-0: var(--orange-0);
-  --primary-2: var(--orange-1);
-  --primary-3: var(--orange-2);
-  --primary-4: var(--orange-3);
-  --primary-5: var(--orange-4);
-  --primary-6: var(--orange-5);
+  --primary-1: var(--orange-1);
+  --primary-2: var(--orange-2);
+  --primary-3: var(--orange-3);
+  --primary-4: var(--orange-4);
+  --primary-5: var(--orange-5);
   --primary-6: var(--orange-6);
 
   --success-1: var(--green-4);
@@ -58,14 +58,14 @@ html.dark:root {
   --body-color: var(--gray-11);
 
   --primary-0: var(--orange-7);
-  --primary-2: var(--orange-8);
-  --primary-3: var(--orange-9);
-  --primary-4: var(--orange-10);
-  --primary-5: var(--orange-11);
-  --primary-6: var(--orange-12);
+  --primary-1: var(--orange-8);
+  --primary-2: var(--orange-9);
+  --primary-3: var(--orange-10);
+  --primary-4: var(--orange-11);
+  --primary-5: var(--orange-12);
 
   --success-1: var(--green-4);
-  --success-1: var(--green-7);
+  --success-2: var(--green-7);
 
   --error-1: var(--red-4);
   --error-2: var(--red-7);
