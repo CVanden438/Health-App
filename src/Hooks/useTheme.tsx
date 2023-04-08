@@ -1,25 +1,21 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 export type Themes = 'light' | 'dark' | 'automatic';
 
 const useTheme = () => {
-  //   const [selectedTheme, setSelectedTheme] = useState<Themes>('automatic');
   const html = document.querySelector('html');
   const setTheme = (theme: Themes) => {
     if (theme === 'light') {
-      //   setSelectedTheme('light');
       html?.classList.remove('dark');
       html?.classList.add('light');
       localStorage.setItem('selectedTheme', 'light');
     }
     if (theme === 'dark') {
-      //   setSelectedTheme('dark');
       html?.classList.remove('light');
       html?.classList.add('dark');
       localStorage.setItem('selectedTheme', 'dark');
     }
     if (theme === 'automatic') {
-      //   setSelectedTheme('automatic');
       html?.classList.remove('dark');
       html?.classList.remove('light');
       localStorage.setItem('selectedTheme', 'automatic');
