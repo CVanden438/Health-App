@@ -1,0 +1,8 @@
+.hero {
+  height: 80vh;
+  /* width: 100vw; */
+  padding: var(--size-3);
+  /* margin: var(--size-3); */
+  background-color: var(--primary-2);
+  border-radius: var(--radius-4);
+}

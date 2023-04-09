@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <h1>LOGO</h1>
-      <nav>
+      {/* <nav>
         <a href='#'>Home</a>
         <a href='#'>About</a>
         <a href='#'>Contaxt</a>
-      </nav>
+      </nav> */}
       <ThemeDropdown />
       <button>Login</button>
     </header>
