@@ -14,7 +14,7 @@ const LandingFeatures = () => {
 
 const test = ['1', '2', '3', '4'];
 const FeatureTab = () => (
-  <Tabs.Root className={styles.root} orientation='horizontal' defaultValue='1'>
+  <Tabs.Root className={styles.root} orientation='vertical' defaultValue='1'>
     <Tabs.List className={styles.list}>
       <Tabs.Trigger className={styles.button} value='1' />
       <Tabs.Trigger className={styles.button} value='2' />
