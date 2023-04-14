@@ -1,7 +1,7 @@
 /* marginTop: 'var(--size-10)', padding: 'var(--size-3)' */
 
 .landing {
-  margin-top: var(--size-10);
+  margin-top: var(--size-9);
   padding: var(--size-3);
   display: flex;
   flex-direction: column;

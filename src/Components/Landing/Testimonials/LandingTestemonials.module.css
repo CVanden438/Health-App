@@ -1,0 +1,17 @@
+.testemonials {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+}
+
+.testemonials > article {
+  flex: 1;
+  background-color: var(--primary-3);
+  width: 70%;
+  border-radius: var(--radius-4);
+}
+
+.testemonials > article:nth-child(even) {
+  align-self: flex-end;
+}
