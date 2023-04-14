@@ -28,18 +28,6 @@ const FeatureTab = () => (
         </Tabs.Content>
       );
     })}
-    {/* <Tabs.Content className={styles.tab} value='tab1'>
-      <div>This is the first tab</div>
-    </Tabs.Content>
-    <Tabs.Content className={styles.tab} value='tab2'>
-      <div>This is the second tab</div>
-    </Tabs.Content>
-    <Tabs.Content className={styles.tab} value='tab3'>
-      <div>This is the third tab</div>
-    </Tabs.Content>
-    <Tabs.Content className={styles.tab} value='tab4'>
-      <div>This is the fourth tab</div>
-    </Tabs.Content> */}
   </Tabs.Root>
 );
 
